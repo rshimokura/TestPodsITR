@@ -82,7 +82,7 @@ This is for test. You'll get nothing though you can use.
   #
 
   #spec.source       = { :git => "https://github.com/rshimokura/TestPodsITR.git", :tag => "#{spec.version}" }
-  spec.source       = { :http => "https://app.creco.cards/Library/LibITR.xcframework.zip" }
+  spec.source       = { :http => "https://app.creco.cards/Library/LibITR.xcframework.zip", :fratten => true }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -93,7 +93,8 @@ This is for test. You'll get nothing though you can use.
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = [ "TestPodsITR/**/*.swift", "TestPodsITR/TestPodsITR.h" ]
+  spec.source_files = ".h"
+  #spec.source_files  = [ "TestPodsITR/**/*.swift", "TestPodsITR/TestPodsITR.h" ]
   #spec.source_files  = [ "TestPodsITR/**/*.swift", "TestPodsITR/TestPodsITR.h", "TestPodsITR/LibITR.xcframework/*" ]
   spec.exclude_files = "Classes/Exclude"
 
