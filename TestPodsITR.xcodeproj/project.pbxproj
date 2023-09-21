@@ -15,7 +15,7 @@
 		ADE317E42ABBD74B007913AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE317E22ABBD74B007913AD /* Main.storyboard */; };
 		ADE317E62ABBD74C007913AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADE317E52ABBD74C007913AD /* Assets.xcassets */; };
 		ADE317E92ABBD74C007913AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE317E72ABBD74C007913AD /* LaunchScreen.storyboard */; };
-		ADE317EF2ABBD90A007913AD /* TestPodsITR.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE317EE2ABBD90A007913AD /* TestPodsITR.swift */; };
+		ADE318112ABC47B2007913AD /* TestPodsITR.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE318102ABC47B2007913AD /* TestPodsITR.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +30,7 @@
 		ADE317E52ABBD74C007913AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADE317E82ABBD74C007913AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADE317EA2ABBD74C007913AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ADE317EE2ABBD90A007913AD /* TestPodsITR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPodsITR.swift; sourceTree = "<group>"; };
+		ADE318102ABC47B2007913AD /* TestPodsITR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestPodsITR.swift; path = Classes/TestPodsITR.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +72,7 @@
 		ADE317CC2ABBD704007913AD /* TestPodsITR */ = {
 			isa = PBXGroup;
 			children = (
-				ADE317EE2ABBD90A007913AD /* TestPodsITR.swift */,
+				ADE318102ABC47B2007913AD /* TestPodsITR.swift */,
 				ADE317CD2ABBD704007913AD /* TestPodsITR.h */,
 				ADE317CE2ABBD704007913AD /* TestPodsITR.docc */,
 			);
@@ -205,7 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADE317CF2ABBD704007913AD /* TestPodsITR.docc in Sources */,
-				ADE317EF2ABBD90A007913AD /* TestPodsITR.swift in Sources */,
+				ADE318112ABC47B2007913AD /* TestPodsITR.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
