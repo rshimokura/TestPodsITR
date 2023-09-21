@@ -82,7 +82,7 @@ This is for test. You'll get nothing though you can use.
   #
 
   #spec.source       = { :git => "https://github.com/rshimokura/TestPodsITR.git", :tag => "#{spec.version}" }
-  spec.source       = { :http => "https://app.creco.cards/Library/LibITR.xcframework.zip", :fratten => true }
+  spec.source       = { :http => "https://app.creco.cards/Library/LibITR.xcframework.zip", :flatten => true }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
