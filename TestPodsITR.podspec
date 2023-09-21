@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TestPodsITR"
-  spec.version      = "0.0.7"
+  spec.version      = "0.0.8"
   spec.summary      = "Test of creating Cocoapods."
 
   # This description is used to generate tags and improve search results.
@@ -94,12 +94,10 @@ This is for test. You'll get nothing though you can use.
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = [ "Classes/**/*.swift", "TestPodsITR/TestPodsITR.h" ]
-#, "TestPodsITR/LibITR.xcframework/Headers/*.h" ]
-  #spec.source_files  = [ "TestPodsITR/**/*.swift", "TestPodsITR/TestPodsITR.h", "TestPodsITR/LibITR.xcframework/*" ]
+  spec.source_files  = [ "Pod/Classes/**/*.swift", "TestPodsITR/TestPodsITR.h" ]
   spec.exclude_files = "Classes/Exclude"
 
-  #spec.public_header_files = "Pod/Classes/**/*.h"
+  spec.public_header_files = "Pod/Classes/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
