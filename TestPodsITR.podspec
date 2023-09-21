@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TestPodsITR"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "Test of creating Cocoapods."
 
   # This description is used to generate tags and improve search results.
@@ -68,7 +68,8 @@ This is for test. You'll get nothing though you can use.
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
+  spec.ios.deployment_target = "14.0"
+  spec.ios.vendored_frameworks = "LibITR.xcframework"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
@@ -81,6 +82,7 @@ This is for test. You'll get nothing though you can use.
   #
 
   spec.source       = { :git => "https://github.com/rshimokura/TestPodsITR.git", :tag => "#{spec.version}" }
+  spec.source       = { :http => "http://app.creco.cards/Library/LibITR.xcframework.zip" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +93,8 @@ This is for test. You'll get nothing though you can use.
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = [ "TestPodsITR/**/*.swift", "TestPodsITR/TestPodsITR.h" ]
+  #spec.source_files  = [ "TestPodsITR/**/*.swift", "TestPodsITR/TestPodsITR.h" ]
+  spec.source_files  = [ "TestPodsITR/**/*.swift", "TestPodsITR/TestPodsITR.h", "TestPodsITR/*.xcframework" ]
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -134,5 +137,6 @@ This is for test. You'll get nothing though you can use.
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
+  spec.dependency "Cartography", "~> 4.0.0"
 
 end
