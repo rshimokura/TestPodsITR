@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TestPodsITR"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "Test of creating Cocoapods."
 
   # This description is used to generate tags and improve search results.
@@ -94,7 +94,7 @@ This is for test. You'll get nothing though you can use.
   #
 
   #spec.source_files  = [ "TestPodsITR/**/*.swift", "TestPodsITR/TestPodsITR.h" ]
-  spec.source_files  = [ "TestPodsITR/**/*.swift", "TestPodsITR/TestPodsITR.h", "TestPodsITR/*.xcframework" ]
+  spec.source_files  = [ "TestPodsITR/**/*.swift", "TestPodsITR/TestPodsITR.h", "TestPodsITR/**/*.xcframework" ]
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
